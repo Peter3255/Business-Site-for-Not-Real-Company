@@ -1,0 +1,216 @@
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+
+h1, h3, h4, h2 {
+    font-family: "Lexend Mega", sans-serif;
+}
+
+.fontChange {
+  font-size: 35px;
+}
+
+.fontChange2 {
+  font-size: 22px;
+}
+
+li {
+    font-family: "Lexend Mega", sans-serif;
+    font-size: 20px;
+}
+
+.navigation li {
+    display: inline-flex;
+    padding: 10px;
+    margin-right: 15px;
+    text-decoration: underline;
+    
+}
+
+ul {
+  text-align: center;
+  
+}
+
+
+
+.ourFund {
+  background-color: white;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  font-size: 25px;
+}
+
+.picture {
+    background-image: url(".//Resources5/Images4/skyscrapers.jpg");
+    height: 300px;
+}
+
+.tea .forPortfolio {
+    height: 150px;
+    width: 220px;
+  }
+
+.row {
+    display: inline-flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+  }
+
+.flavor {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.spacer {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+.featured {
+    width: 1000px;
+    height: auto;
+}
+
+.OurMobility {
+    font-size: 31px;
+}
+
+.tea {
+    margin-top: 50px;
+    position: relative;
+    left: 200px;
+    right: 200px;
+}
+
+.ourMobilityPortfolio {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align:center;
+  position:relative;
+  left: 150px;
+}
+
+   .tea h3 { 
+    width: 300px;
+    text-align: justify;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.picture2 {
+    background-image: url(".//Resources5/Images4/blurred-road.jpg");
+    height: 500px; 
+}
+
+.arrange {
+  margin-top: 50px;
+  position: relative;
+  left: 85px;
+  right: 85px;
+}
+
+.arrange .member {
+  height: 300px;
+  width: 200px;
+}
+
+.arrange .name { 
+  width: 200px;
+  text-align: justify;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+
+.arrange h4 { 
+  width: 300px;
+  text-align: justify;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  padding: 10px;
+}
+
+.copyright{
+  margin: 30px;
+  
+  text-align: center;
+}
+
+.arrange .role {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.committed {
+  text-align: center;
+}
+
+@media only screen and (max-width: 532px) {
+ .mission, .portfolio, .investment {
+  text-align: center;
+  
+ }
+}
+
+@media only screen and (max-width: 532px) {
+  .featured {
+    width: 532px;
+    height: auto;
+    align-content: center;
+    
+  }
+ }
+
+@media only screen and (max-width: 532px) {
+  .tea {
+    position: relative;
+    left: 50px;
+    right: 50px;
+  }
+}
+
+@media only screen and (max-width: 532px) {
+  .OurMobility, .Impacting {
+    position: relative;
+    right: 150px;
+  }
+}
+
+@media only screen and (max-width: 532px) {
+  .arrange .member {
+    height: 200px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 532px) {
+  .picture2 {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 532px) {
+  .ourFund {
+    line-height: 1.0;
+    position: relative;
+    top: 80px;
+  }
+}
